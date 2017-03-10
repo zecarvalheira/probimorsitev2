@@ -1,0 +1,46 @@
+/******************************************************************
+* main.css
+******************************************************************/
+/*#main {
+  width: 700px;
+}
+
+#left {
+  margin-right: 0px;
+}
+
+#sidebar {
+  display: none
+}*/
+
+a {
+  color: #555;
+}
+
+#blog-head a {
+  display: block;
+  text-align: center;
+}
+/******************************************************************
+* post.css
+******************************************************************/
+
+article.post	header	div.post-published {
+  display: none;
+}
+
+article.post header div.share_wrap {
+display: none;
+}
+
+article.post header h1.post-title a {
+  color: #8cc63f;
+}
+
+/******************************************************************
+* app.css
+******************************************************************/
+
+div.ccm-notification-help-launcher {
+  display: none !important;
+}

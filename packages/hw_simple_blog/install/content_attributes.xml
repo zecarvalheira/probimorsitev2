@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <attributekeys>
+        <attributekey handle="exclude_subpages_from_nav" name="Exclude Sub-Pages From Nav" package="hw_simple_blog" searchable="1" indexed="1" type="boolean" category="collection">
+            <type checked="0"/>
+        </attributekey>
+        <attributekey handle="thumbnail" name="Thumbnail" package="hw_simple_blog" searchable="1" indexed="1" type="image_file" category="collection"/>
+        <attributekey handle="blog_entry_topics" name="Blog Entry Topics" package="hw_simple_blog" searchable="1" indexed="1" type="topics" category="collection">
+            <tree name="Blog Entries" path="/"/>
+        </attributekey>
+    </attributekeys>
+    <attributesets>
+        <attributeset handle="blog" name="Blog" package="hw_simple_blog" locked="0" category="collection">
+            <attributekey handle="blog_entry_topics"/>
+        </attributeset>
+    </attributesets>
+</concrete5-cif>
+

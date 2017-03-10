@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+	<pages>
+        <page name="Blog" path="/blog" filename="" pagetype="blog" template="full" user="admin" description="" package="">
+            <attributes>
+                <attributekey handle="exclude_subpages_from_nav">
+                    <value><![CDATA[1]]></value>
+                </attributekey>
+            </attributes>
+            <area name="Main">
+                <blocks>
+                </blocks>
+            </area>
+            <area name="Page Footer">
+                <blocks/>
+            </area>
+        </page>
+	</pages>
+</concrete5-cif>

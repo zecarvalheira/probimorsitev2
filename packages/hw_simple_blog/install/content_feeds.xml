@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <pagefeeds>
+        <feed>
+            <parent>{ccm:export:page:/blog}</parent>
+            <title>Blog</title>
+            <description>concrete5 Blog</description>
+            <handle>blog</handle>
+            <contenttype type="description"/>
+        </feed>
+    </pagefeeds>
+</concrete5-cif>
