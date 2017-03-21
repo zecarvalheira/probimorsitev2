@@ -61,7 +61,7 @@
     </div> -->
     <div class="top_banner">
       <div id="home-center">
-        <img src="<?=$view->getThemePath()?>/images/logo2.png"  />
+        <img src="<?=$view->getThemePath()?>/images/logo.png"  />
       </div>
       <img src="<?=$view->getThemePath()?>/images/topo.jpg" align="center" />
     </div>

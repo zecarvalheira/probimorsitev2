@@ -41,22 +41,13 @@
       </div>
     </div>
     <!--/Navigation -->
-    <div class="home-pattern">
-      <div class="container clearfix">
-        <div id="home-center" class="element_fade_in">
-          <div class="div-align-center">
-            <img src="../images/logo1.png" align="center" />
-            <div class="clearfix"></div>
-            <div class="home">
-              <nav class="navbar">
-                <ul class="nav">
-                  <li class="menu-1"><a class="colapse-menu1"  href="#novidades"><img src="../images/seta.png"></a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
+
+
+    <div class="top_banner">
+      <div id="home-center">
+        <img src="/probimorsitev2/application/themes/probimor/images/logo.png"  />
       </div>
+      <img src="/probimorsitev2/application/themes/probimor/images/topo.jpg" align="center" />
     </div>
     <!-- End Home Section -->
     <!-- Portfolio -->
@@ -88,9 +79,9 @@
           if($data!==false)
           {
             $posts = json_decode($data, true);
-            //$show_last_post = array_slice($posts, -2);
-            //$show_penultimate_post = array_slice($posts, -1);
-            //$posts_in_homepage = array($show_last_post, $show_penultimate_post);
+            $show_last_post = array_slice($posts, -2);
+            $show_penultimate_post = array_slice($posts, -1);
+            $posts_in_homepage = array($show_last_post, $show_penultimate_post);
             foreach($posts as $post){
 
               echo '<div class="column"><br><h4>';
@@ -100,7 +91,7 @@
                 echo $excerpt . '(...)';
                 echo '<br>';
                 echo '<br>';
-                echo '<a href="blog/index.php?controller=post&action=view&id_post=' . $post['id'] . ' . #novidades " >Ler Mais</a>';
+                echo '<a href="../../../../blog/index.php?controller=post&action=view&id_post=' . $post['id'] . ' . #novidades " >Ler Mais</a>';
                 echo '</div>';
               }
             }

@@ -929,11 +929,23 @@ footer {
 
 
 .home-pattern {
-	/*background:url(images/home_pattern.png) repeat;*/
-	background: url(../images/topo.jpg);
-	width:100%;
-	height:100%;
+	/*background:url(../images/home_pattern.png);*/
+	/*background:url(../images/topo.jpg);*/
+	/*background:url(../images/topotest.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;*/
 }
+
+.banner_top_image{
+	position:absolute;
+	left:40px;
+	top:10px;
+	z-index:-1;
+}
+
 
 .pattern {
 	background:url(images/pattern.png) repeat;
@@ -948,9 +960,10 @@ footer {
 	top: 0;
 	left:0;
 	right:0;
-	width:90%;
-	margin-left:5%;
-	margin-right:5%;
+	/*width:90%;*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 175px;
 }
 
 .div-align-center {
@@ -3125,11 +3138,11 @@ input#search:focus {
 }
 
 #home-center .home{
-	/*width: 1050px;*/
+	width: 1050px;
 	top: 90%;
 	position: absolute;
 	left: 50%;
-	/*margin-left: -525px;*/
+	margin-left: -525px;
 	height: auto;
 
 }
@@ -3310,9 +3323,18 @@ a.produtos:hover{
 .column ul li{
 	font-size: 14px;
 }
+
+.contact-details{
+	margin-left: 25%;
+}
+
 /* Responsive Media Querries */
 
 @media only screen and (max-width: 1300px) {
+
+	#home-center {
+		margin-top: 115px;
+	}
 
 	.container {
 		width:920px;
@@ -3422,6 +3444,9 @@ a.produtos:hover{
 
 @media only screen and (max-width: 1024px) {
 
+	#home-center {
+		margin-top: 95px;
+	}
 
 	.container {
 		width:600px;
@@ -3680,6 +3705,7 @@ a.produtos:hover{
 	#home-center .home{
 		width: auto;
 		/*margin-left: -50%;*/
+		display: none;z-index: ;
 	}
 	.home .navbar .nav li{
 		width: auto;
@@ -3698,6 +3724,14 @@ a.produtos:hover{
 
 
 @media only screen and (max-width: 768px) {
+
+	#home-center {
+		margin-top: 70px;
+	}
+
+	.column {
+		width: 100%;
+	}
 
 	.container {
 		width:400px;
@@ -3755,7 +3789,7 @@ a.produtos:hover{
 	}
 
 	.company-phone a {
-		font-size: 50px;
+		font-size: 18px;
 	}
 
 	#blog .container {
@@ -3824,9 +3858,9 @@ a.produtos:hover{
 		line-height:100px;
 	}
 
-	/*.home{
-	display: none;
-	}*/
+	.home{
+		display: none;
+	}
 	.column{
 		-moz-column-count: 1;
 		-moz-column-gap: 0px;
@@ -3845,11 +3879,23 @@ a.produtos:hover{
 
 
 
-}
+
 
 
 
 @media only screen and (max-width: 479px) {
+
+	#home-center {
+		margin-top: 70px;
+	}
+
+	.column {
+		width: 100%;
+	}
+
+	.contact-details{
+		margin-left: 0%;
+	}
 
 	.container {
 		width:280px;
@@ -4010,6 +4056,8 @@ a.produtos:hover{
 	}
 
 
+
+
 }
 
 ul.text-slide-vertical li{
@@ -4022,6 +4070,8 @@ ul.text-slide-vertical li{
 	font-weight: 300;
 }
 
+
+
 .column p{
 	text-align: left;
 }
@@ -4030,13 +4080,15 @@ ul.text-slide-vertical li{
 	text-align: left;
 }
 
-.contact-details{
-	margin-left: 25%;
-}
 
 .marcas img{
 	margin-bottom: 20px;
 }
+
+div#ccm-toolbar {
+	margin-top: 50px;
+}
+
 
 #center-things{
 	margin-left: auto;
