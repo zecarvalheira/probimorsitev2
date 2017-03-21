@@ -42,11 +42,11 @@
       </div>
     </div>
     <!--/Navigation -->
-    <div class="home-pattern">
+    <!-- <div class="home-pattern">
       <div class="container clearfix">
         <div id="home-center" class="element_fade_in">
           <div class="div-align-center">
-            <img src="<?=$view->getThemePath()?>/images/logo1.png" align="center" />
+            <img src="<?=$view->getThemePath()?>/images/logo2.png" align="center" />
             <div class="clearfix"></div>
             <div class="home">
               <nav class="navbar">
@@ -58,6 +58,12 @@
           </div>
         </div>
       </div>
+    </div> -->
+    <div class="top_banner">
+      <div id="home-center">
+        <img src="<?=$view->getThemePath()?>/images/logo2.png"  />
+      </div>
+      <img src="<?=$view->getThemePath()?>/images/topo.jpg" align="center" />
     </div>
     <!-- End Home Section -->
     <!-- Navigation -->
